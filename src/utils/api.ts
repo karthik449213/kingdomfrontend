@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Use a public NEXT env var in Next.js for client-side access, fallback to localhost for dev
-export const API_BASE = process.env.NEXT_PUBLIC_API_BASE || "http://localhost:5000";
+export const API_BASE = process.env.NEXT_PUBLIC_API_BASE ;
 
 export const testConnection = async () => {
   try {
